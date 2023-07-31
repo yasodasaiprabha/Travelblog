@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: "poppins",sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+h1,h4,h5,p {
+    margin: 0;
+}
+.bg_dark { 
+    background-color: #212121;
+}
+.text_light {
+    color: #fff;
+}
+.btn_dark,.btn_light {
+    display: inline-block;
+    background-color: #212121;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 100px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: all 0.4s;
+}
+.btn_dark {
+    background-color: #212121;
+}
+.btn_light {
+background-color: #f4511e;
+}
+.btn_dark:hover {
+    background-color: #fff;
+    color: #f411ef;
+}
+.margin_top {
+    margin-top: 15px;
+}
+.image_responsive {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  background-color: #212121;
+}
+
+.navbar ul li {
+   display: inline-block;
+}
+.navbar li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 20px;
+    font-size: 13px;
+    color: #f411ef;
+    letter-spacing: 10px;
+}
+
+
+.head_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    background-image:linear-gradient(aqua,aqua), url(../image/beach.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.head_text{
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hero_text h1 {
+    font-size: 100px;
+    font-weight: 500;
+}
+.head_text p {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.travel_section {
+    padding: 70px 0;
+}
+.image_wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:yellow;
+    overflow: hidden;
+    border-radius: 2px;
+}
+.image_wrapper img {
+    width: 150%;
+    max-width: 150%;
+    height: auto;
+    transition: all0.4s;
+}
+.image_wrapper:hover img {
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+}
+.image_wrapper-text {
+    padding: 30px 15px;
+     max-height: 150px;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+}
+.image_wrapper-text h5 {
+    color: #f4511e;
+    font-size: 20px;
+    font-weight: 400;
+}
+.image_wrapper-text p {
+line-height:26px ;
+}
+.about_section {
+    padding: 50px 0;
+background-color: #f4511e;
+color: #fff;
+}
+.about_section h4 {
+    font-size: 40px;
+    font-weight: 500;
+}
+.about_section p {
+    line-height: 40px;
+    font-weight: 200;
+}
+.image_background {
+    position: relative;
+    z-index: 1;
+}
+.image_background::before{
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    content: "sss";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: black;
+}
+.image_background img {
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.7);
+}
+.extra_section {
+    padding: 70px 0;
+}
+.extra_section h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.about_section p {
+    line-height: 36px;
+font-weight: 300;
+}
+.subscribe_section {
+    padding: 40px 0;
+    background-color: #212121;
+    color: #fff;
+}
+.subscribe_section form {
+    display: flex;
+}
+.subscribe_section button {
+    background-color: #f4511e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+}
